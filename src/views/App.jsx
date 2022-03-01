@@ -6,7 +6,7 @@ import Content from '../components/Content'
 import Menu from '../components/Menu'
 
 const App = props => (
-    <div>
+    <div className="container-fluid">
         <Router>
             <Menu/>
             <Content/>

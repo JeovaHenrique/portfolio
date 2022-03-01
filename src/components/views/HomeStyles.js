@@ -27,7 +27,7 @@ export const HomeConteiner = styled.div`
 
     h2 {
         text-transform: uppercase;
-        font-size: 1.8em;
+        font-size: 1.5em;
         color: #EEEEEE;
         margin-botton: 1rem;
     }
@@ -35,7 +35,7 @@ export const HomeConteiner = styled.div`
     h1 {
         text-transform: uppercase;
         font-size: 5em;
-        color: #ffff1a;
+        color: #05F5F9;
         margin-botton: 1rem;
     }
 
@@ -45,23 +45,10 @@ export const HomeConteiner = styled.div`
         margin-botton: 1rem;   
     }
 
-    button {
-        min=width: 150px;
-        border: solid 1px #ffff1a;
-        display: flex;
-        align-items:center;
-        color: #EEEEEE;
-        background-color: transparent;
-        border-radius: 42px;
-        font-size: 1rem;
-        padding: 10px 15px;
-        margin: 0 auto;
-        margin-top 2rem;
-        transition-duration: 1s;
-        cursor: pointer;
-        &:hover {
-            color: #ffff1a;
-            boder: solid 1px #EEEEEE;
-        }
+    img {
+        width: 45px;
+        heigth: 45px;
     }
+
+    
 `;

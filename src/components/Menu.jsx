@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom'
 
 
 const Menu = props => (
-    <aside>
+    <aside className="row">
         
-        <nav className='navbar navbar-expand navbar-dark bg-dark bg-gradient pt-3 fw-bold px-5'>
+        <nav className='navbar navbar-expand navbar-dark bg-dark bg-gradient pt-3 fw-bold px-5 '>
             <a href=''className='navbar-brand ps-2 fs-4'> Jeová Henrique</a>
                     
             <div className='collapse navbar-collapse fs-5' id='nav-target'>
@@ -15,7 +15,7 @@ const Menu = props => (
                         <Link to='/' className='nav-link'>Home</Link>    
                     </li>
                     <li className='nav-item'>
-                        <Link to='/about' className='nav-link'>Sobre</Link>
+                        <Link to='/about' className='nav-link'>Quem sou</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to='/projects' className='nav-link'>Projetos</Link>

@@ -10,10 +10,10 @@ const Content = props => (
     <main>
         <Routes>
             <Route path='/' element={<Home/>}/>
-             <Route path='/about' element={<About/>}/>
-             <Route path='/contacts' element={<Contacts/>}/>
-             <Route path='/projects' element={<Projects/>}/>
-         </Routes>
+            <Route path='/about' element={<About/>}/>
+            <Route path='/contacts' element={<Contacts/>}/>
+            <Route path='/projects' element={<Projects/>}/>
+        </Routes>
     </main>
 
 )
