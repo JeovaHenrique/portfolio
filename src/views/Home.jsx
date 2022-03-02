@@ -12,10 +12,10 @@ const Home = props => (
             <h2>Olá, Eu sou</h2>
             <h1>Jeová Henrique</h1>
             <p>Full stack developer e Mobile</p>
-            <a href="https://github.com/JeovaHenrique" target="_blank"><img src={github} alt="github" /></a>
-            <a href="https://www.linkedin.com/in/jeova-henrique/" target="_blank"><img src={linkedin} alt="linkedin" /></a>
-            <a href="https://www.instagram.com/jeova_henrique/" target="_blank"><img src={insta} alt="instagram" /></a>
-            <a href="https://www.facebook.com/jeova.henrique.1" target="_blank"><img src={face} alt="facebook" /></a>
+            <a href="https://github.com/JeovaHenrique" target="_blank" rel="noreferrer"><img src={github} alt="github" /></a>
+            <a href="https://www.linkedin.com/in/jeova-henrique/" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin" /></a>
+            <a href="https://www.instagram.com/jeova_henrique/" target="_blank" rel="noreferrer"><img src={insta} alt="instagram" /></a>
+            <a href="https://www.facebook.com/jeova.henrique.1" target="_blank" rel="noreferrer"><img src={face} alt="facebook" /></a>
         </div>
     </HomeConteiner>
 )

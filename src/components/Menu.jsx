@@ -1,32 +1,38 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import {Link} from 'react-router-dom'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 const Menu = props => (
-    <aside className="row">
-        
-        <nav className='navbar navbar-expand navbar-dark bg-dark bg-gradient pt-3 fw-bold px-5 '>
-            <a href=''className='navbar-brand ps-2 fs-4'> Jeová Henrique</a>
-                    
-            <div className='collapse navbar-collapse fs-5' id='nav-target'>
+    <nav className='row fixed-top navbar navbar-expand-md navbar-dark bg-dark bg-gradient pt-3 fw-bold px-5 '>
+        <div className="container-fluid">
+            <button type="button" className="navbar-toggler" 
+             data-bs-toggle="collapse" data-bs-target="#navbarToggler" 
+             aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation"
+            >
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <a className='navbar-brand ps-2 fs-4' href='#'> Jeová Henrique</a>
+                        
+            <div className='navbar-collapse collapse fs-5' id='navbarToggler'>
                 <ul className='navbar-nav ms-auto'>
-                    <li className='nav-item'>
-                        <Link to='/' className='nav-link'>Home</Link>    
+                    <li className='nav-item '>
+                            <AnchorLink href='#Home' className='nav-link ' aria-current="page">Home</AnchorLink>    
                     </li>
                     <li className='nav-item'>
-                        <Link to='/about' className='nav-link'>Quem sou</Link>
+                            <AnchorLink href='#About' className='nav-link'>Quem sou</AnchorLink>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/projects' className='nav-link'>Projetos</Link>
+                            <AnchorLink href='#Projects' className='nav-link'>Projetos</AnchorLink>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/contacts' className='nav-link'>Contatos</Link>
+                            <AnchorLink href='#Abiliity' className='nav-link'>Habilidade</AnchorLink>
                     </li>
                 </ul>
             </div>
-        </nav>
-    </aside>
+        </div>
+    </nav>
+
     
 )
 

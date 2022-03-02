@@ -11,7 +11,7 @@ const About = props => (
             </div>
             <div className="align-self-center col-md-6 col-sm-12">
                 <h2>Quem sou</h2>
-                <p className="text-start">
+                <p className="text-start text-break">
                     Me Chamo <text>Jeová Henrique</text>, sou graduando em Ciências e Tecnologia 
                     com ênfase em Computação Aplicada, 
                     Atualmente trabalho como freelancer, desenvolvendo aplicativos mobile e 

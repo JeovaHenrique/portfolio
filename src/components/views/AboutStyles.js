@@ -6,19 +6,18 @@ export const AboutConteiner = styled.div`
     
 
     img {
-        width: 40%;
-        heigth: 40%;
+        width: 70%;
+        heigth: 70%;
         border-radius: 15%;
     }
 
     h2 {
         text-transform: uppercase;
-        font-size: 3em;
         color: #05F5F9;
     }
 
     P {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         color: #EEEEEE;
         margin-top: 3rem;   
     }
