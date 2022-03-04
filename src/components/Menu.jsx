@@ -1,39 +1,30 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { Container, Nav, Navbar } from 'react-bootstrap'
+import Logo from '../assets/img/Logo.jpg'
 
+import { Logoimg } from '../components/styles/Menu.styles'
 
 const Menu = props => (
-    <nav className='row fixed-top navbar navbar-expand-md navbar-dark bg-dark bg-gradient pt-3 fw-bold px-5 '>
-        <div className="container-fluid">
-            <button type="button" className="navbar-toggler" 
-             data-bs-toggle="collapse" data-bs-target="#navbarToggler" 
-             aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation"
-            >
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <a className='navbar-brand ps-2 fs-4' href='#'> Jeová Henrique</a>
-                        
-            <div className='navbar-collapse collapse fs-5' id='navbarToggler'>
-                <ul className='navbar-nav ms-auto'>
-                    <li className='nav-item '>
-                            <AnchorLink href='#Home' className='nav-link ' aria-current="page">Home</AnchorLink>    
-                    </li>
-                    <li className='nav-item'>
-                            <AnchorLink href='#About' className='nav-link'>Quem sou</AnchorLink>
-                    </li>
-                    <li className='nav-item'>
-                            <AnchorLink href='#Projects' className='nav-link'>Projetos</AnchorLink>
-                    </li>
-                    <li className='nav-item'>
-                            <AnchorLink href='#Abiliity' className='nav-link'>Habilidade</AnchorLink>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <Navbar className='row' collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
+        <Container>
+            <Navbar.Brand className='ps-2 fs-4' 
+            href="#Home">
+                <Logoimg src={Logo} alt="Logo" /> Jeová Henrique
+            </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="me-auto ">
+                        <AnchorLink href='#Home' className='nav-link ' aria-current="page">Home</AnchorLink>
+                        <AnchorLink href='#About' className='nav-link'>Quem sou</AnchorLink>
+                        <AnchorLink href='#Projects' className='nav-link'>Projetos</AnchorLink>
+                        <AnchorLink href='#Abiliity' className='nav-link'>Habilidade</AnchorLink>
+                    </Nav>
+                </Navbar.Collapse>
+        </Container>
+    </Navbar>
 
-    
 )
 
 

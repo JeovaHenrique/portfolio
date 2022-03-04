@@ -1,11 +1,12 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
-import Menu from '../components/Menu'
-import Home from './Home'
-import About from './About'
-import Projects from './Projects'
-import Abiliity from './Abiliity'
+
+import Menu from './components/Menu'
+import Home from './components/views/Home'
+import About from './components/views/About'
+import Projects from './components/views/Projects'
+import Abiliity from './components/views/Abiliity'
+import Footer from './components/views/Footer'
 
 const App = props => (
     <div className="container-fluid">
@@ -22,6 +23,7 @@ const App = props => (
         <section id='Abiliity'>
             <Abiliity/>
         </section>
+            <Footer/>
     </div>
 )
 

@@ -1,7 +1,8 @@
 import ReactDOM from 'react-dom'
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-import App from './views/App'
+import App from './App'
 
 ReactDOM.render(
     <App/>,

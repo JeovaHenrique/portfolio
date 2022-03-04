@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 
 export const AboutConteiner = styled.div`
-    height: 100vh;
+    height: 100%;
     display: flex;
+    padding:  200px 5px 200px 5px;
+    align-items:center;
     
 
     img {

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import imgBac from'../../assets/img/computer.jpg'
 
 export const HomeConteiner = styled.div`
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: start;

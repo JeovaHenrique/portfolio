@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react"
 import axios from 'axios'
 
-import { Foto, ProjectsContainer, ListProjects } from "../components/views/ProjectsStyles"
+import { Foto, ProjectsContainer, ListProjects } from "../styles/ProjectsStyles"
 
 export default function Projects() {
 
@@ -59,7 +59,7 @@ export default function Projects() {
                     {
                         projects.slice(0,5).map((project) =>
                             <div key={project.id} className="m-2">
-                                <a href={project.html_url} target='_blank'>
+                                <a href={project.html_url} target='_blank' rel="noreferrer">
                                     <h3>{project.name}</h3>
                                 </a>
                                 <p>{project.description}</p>

@@ -1,10 +1,10 @@
 import React from "react"
-import face from '../assets/img/facebook.png'
-import insta from '../assets/img/instagram.png'
-import linkedin from '../assets/img/linkedin.png'
-import github from '../assets/img/github.png'
+import face from '../../assets/img/facebook.png'
+import insta from '../../assets/img/instagram.png'
+import linkedin from '../../assets/img/linkedin.png'
+import github from '../../assets/img/github.png'
 
-import { HomeConteiner } from "../components/views/HomeStyles"
+import { HomeConteiner } from "../styles/HomeStyles"
 
 const Home = props => (
     <HomeConteiner className="row">

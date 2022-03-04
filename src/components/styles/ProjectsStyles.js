@@ -7,6 +7,7 @@ export const ProjectsContainer = styled.div`
     display: flex;
     align-items: start;
     justify-content: start;
+    padding-bottom: 50px;
     background-image: url(${bacProjects});
     background-position: center;
     background-size: cover;
@@ -28,10 +29,12 @@ export const ProjectsContainer = styled.div`
 
     h2 {
         color: #05F5F9;
+        text-shadow: 1px 1px white;
     }
 
     h3 {
         color: #05F5F9;
+        text-shadow: 1px 1px;
     }
 
     h4 {
@@ -57,9 +60,12 @@ export const ListProjects = styled.div`
         border-radius: 10px;
         background-color: #E5E7E9;
         padding: 0.5rem 1rem;
+        text-shadow: 1px 1px;
+        
         
         h3 {
             color: #154360;
+            text-shadow: 1px 1px;
         }
     
         a {
