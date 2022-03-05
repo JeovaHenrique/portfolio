@@ -8,8 +8,8 @@ export const AboutConteiner = styled.div`
     
 
     img {
-        width: 70%;
-        heigth: 70%;
+        width: 40%;
+        heigth: 40%;
         border-radius: 15%;
     }
 
