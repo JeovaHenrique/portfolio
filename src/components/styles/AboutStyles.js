@@ -48,4 +48,8 @@ export const AboutConteiner = styled.div`
         }
     }
 
+    a {
+        text-decoration: none;
+    }
+
 `

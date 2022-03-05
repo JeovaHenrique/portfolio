@@ -22,7 +22,7 @@ export const ProjectsContainer = styled.div`
         background-color:rgba(0,0,0,.6);    
         
     }
-
+    
     div {
         z-index: 99;
     }
@@ -44,6 +44,8 @@ export const ProjectsContainer = styled.div`
     p {
         color: #FFFFFF;
     }
+
+
 `
 export const Foto = styled.div`
     border-radius: 50%;

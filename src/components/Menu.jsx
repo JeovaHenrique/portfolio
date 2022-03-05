@@ -7,15 +7,15 @@ import Logo from '../assets/img/Logo.jpg'
 import { Logoimg } from '../components/styles/Menu.styles'
 
 const Menu = props => (
-    <Navbar className='row' collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
+    <Navbar className='row ps-5' collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
         <Container>
-            <Navbar.Brand className='ps-2 fs-4' 
+            <Navbar.Brand className='fs-4' 
             href="#Home">
                 <Logoimg src={Logo} alt="Logo" /> Jeová Henrique
             </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto ">
+                    <Nav className="me-auto fs-4">
                         <AnchorLink href='#Home' className='nav-link ' aria-current="page">Home</AnchorLink>
                         <AnchorLink href='#About' className='nav-link'>Quem sou</AnchorLink>
                         <AnchorLink href='#Projects' className='nav-link'>Projetos</AnchorLink>
