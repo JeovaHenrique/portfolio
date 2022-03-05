@@ -9,7 +9,7 @@ import Abiliity from './components/views/Abiliity'
 import Footer from './components/views/Footer'
 
 const App = props => (
-    <div className="container-fluid">
+    <div>
         <Menu />
         <section id='Home'>
             <Home />

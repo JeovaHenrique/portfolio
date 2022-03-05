@@ -34,7 +34,7 @@ export const HomeConteiner = styled.div`
 
     h1 {
         text-transform: uppercase;
-        font-size: 5em;
+        font-size: 4rem;
         color: #05F5F9;
         margin-botton: 1rem;
     }

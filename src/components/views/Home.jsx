@@ -8,7 +8,7 @@ import { HomeConteiner } from "../styles/HomeStyles"
 
 const Home = props => (
     <HomeConteiner className="row">
-        <div className="ps-5">
+        <div className="ps-5 container-fluid">
             <h2>Olá, Eu sou</h2>
             <h1>Jeová Henrique</h1>
             <p>Full stack developer e Mobile</p>
