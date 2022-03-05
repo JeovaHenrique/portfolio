@@ -14,7 +14,7 @@ const About = props => (
                 <p className="text-start text-break ">
                     Me Chamo <text>Jeová Henrique</text>, sou graduando em Ciências e Tecnologia 
                     com ênfase em Computação Aplicada. 
-                    Atualmente trabalho como freelancer, desenvolvendo aplicativos mobile e 
+                    Atualmente, trabalho como freelancer, desenvolvendo aplicativos mobile e 
                     sites responsivos, e-commerce, blogs entre outros.
                 </p>
                 <a href={Curriculum} download>
