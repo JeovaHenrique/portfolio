@@ -6,14 +6,14 @@ import { AboutConteiner } from "../styles/AboutStyles"
 
 const About = props => (
     <AboutConteiner className="row  bg-secondary bg-gradient">
-            <div className="align-self-center col-md-6 col-sm-12 ps-5">
+            <div className="align-self-center col-md-6 col-sm-12">
                 <img src={Me} className="mx-auto d-block img-thumbnail" alt='Foto Jeová Henrique'/>
             </div>
-            <div className="align-self-center col-md-6 col-sm-12 pt-5">
+            <div className="align-self-center col-md-6 col-sm-12 p-5">
                 <h2>Quem sou</h2>
-                <p className="text-start text-break">
+                <p className="text-start text-break ">
                     Me Chamo <text>Jeová Henrique</text>, sou graduando em Ciências e Tecnologia 
-                    com ênfase em Computação Aplicada, 
+                    com ênfase em Computação Aplicada. 
                     Atualmente trabalho como freelancer, desenvolvendo aplicativos mobile e 
                     sites responsivos, e-commerce, blogs entre outros.
                 </p>

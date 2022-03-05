@@ -7,7 +7,7 @@ import Logo from '../assets/img/Logo.jpg'
 import { Logoimg } from '../components/styles/Menu.styles'
 
 const Menu = props => (
-    <Navbar className='row ps-5' collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
+    <Navbar className='row px-5' collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
         <Container>
             <Navbar.Brand className='fs-4' 
             href="#Home">

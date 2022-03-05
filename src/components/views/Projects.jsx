@@ -55,7 +55,7 @@ export default function Projects() {
                     <h4>{user.login}</h4>
                     <p>{user.bio}</p>
                 </Foto>
-                <ListProjects className="col-md-8 col-sm-11">
+                <ListProjects className="col-md-8 col-sm-11 p-5">
                     {
                         projects.slice(0,5).map((project) =>
                             <div key={project.id} className="m-2">
