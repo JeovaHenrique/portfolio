@@ -10,7 +10,7 @@
 
 ### O projeto consiste na criação de um site responsivo que contem o meu curriculo e projetos finalizados. 
 
-[site](http://jeovahenrique.epizy.com/)
+[Vá para o site](http://jeovahenrique.epizy.com/)
 
 <br>
 
