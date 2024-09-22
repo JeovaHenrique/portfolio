@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import bacProjects from '../../assets/img/projects.jpg'
 
-
 export const ProjectsContainer = styled.div`
     height: 100%;
     display: flex;

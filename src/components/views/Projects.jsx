@@ -20,10 +20,8 @@ export default function Projects() {
           })
           .then(function (response) {
             setUser(response.data)
-            console.log(response)
           })
           .catch(function (error) {
-            console.log(error)
             setError('Temporariamente fora do ar!!')
           })
     }
@@ -34,10 +32,8 @@ export default function Projects() {
           })
           .then(function (response) {
             setProjects(response.data)
-            console.log(response)
           })
           .catch(function (error) {
-            console.log(error)
             setError('Temporariamente fora do ar!!')
           })
     }

@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Container, Nav, Navbar } from 'react-bootstrap'
@@ -24,8 +23,6 @@ const Menu = props => (
                 </Navbar.Collapse>
         </Container>
     </Navbar>
-
 )
-
 
 export default Menu

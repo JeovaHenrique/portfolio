@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 import Menu from './components/Menu'
 import Home from './components/views/Home'
 import About from './components/views/About'

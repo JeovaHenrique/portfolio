@@ -29,25 +29,25 @@ export const HomeConteiner = styled.div`
         text-transform: uppercase;
         font-size: 1.5em;
         color: #EEEEEE;
-        margin-botton: 1rem;
+        margin-bottom: 1rem;
     }
 
     h1 {
         text-transform: uppercase;
         font-size: 4rem;
         color: #05F5F9;
-        margin-botton: 1rem;
+        margin-bottom: 1rem;
     }
 
     P {
         font-size: 1.8rem;
         color: #EEEEEE;
-        margin-botton: 1rem;   
+        margin-bottom: 1rem;   
     }
 
     img {
         width: 45px;
-        heigth: 45px;
+        height: 45px;
     }
 
     

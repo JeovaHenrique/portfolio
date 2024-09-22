@@ -9,7 +9,7 @@ export const AboutConteiner = styled.div`
 
     img {
         width: 40%;
-        heigth: 40%;
+        height: 40%;
         border-radius: 15%;
     }
 
@@ -29,7 +29,7 @@ export const AboutConteiner = styled.div`
     }
 
     button {
-        min=width: 150px;
+        min-width: 150px;
         border: solid 1px #05F5F9;
         display: flex;
         align-items:center;
@@ -39,12 +39,12 @@ export const AboutConteiner = styled.div`
         font-size: 1rem;
         padding: 10px 15px;
         margin: 0 auto;
-        margin-top 2rem;
+        margin-top: 2rem;
         transition-duration: 1s;
         cursor: pointer;
         &:hover {
             color: #05F5F9;
-            boder: solid 1px #EEEEEE;
+            border: solid 1px #EEEEEE;
         }
     }
 
