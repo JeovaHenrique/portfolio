@@ -12,7 +12,7 @@ export const AbiliityConteiner = styled.div`
 
     img {
         width: 100px;
-        heigth: 100px;
+        height: 100px;
         align-items: center;
     }
 
@@ -20,7 +20,7 @@ export const AbiliityConteiner = styled.div`
 
 export const Bloc = styled.div`
     width: 250px;
-    heigth: 300px;
+    height: 300px;
     padding: 8px;
     margin: 20px;
     box-shadow: 20px 20px 5px rgba(0,0,0,0.2);
